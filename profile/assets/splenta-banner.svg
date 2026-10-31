@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+  <title id="title">Splenta Inc — Software from the foundations up.</title>
+  <desc id="desc">A midnight blue banner with a layered geometric illustration in blue and teal. Languages, runtimes, graphics, operating systems and AI.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1222" />
+      <stop offset="1" stop-color="#142740" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" />
+      <stop offset="1" stop-color="#5eead4" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.16" />
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0.03" />
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#a4bdd7" stroke-opacity="0.045" />
+    </pattern>
+  </defs>
+  <rect width="1440" height="440" rx="20" fill="url(#background)" />
+  <rect width="1440" height="440" rx="20" fill="url(#grid)" />
+  <rect x="64" y="66" width="38" height="4" rx="2" fill="url(#accent)" />
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="116" y="74" fill="#a8bfd9" font-size="15" letter-spacing="3">ENGINEERING &amp; RESEARCH</text>
+    <text x="64" y="165" fill="#f3f7fc" font-size="68" font-weight="700" letter-spacing="-2">Splenta Inc</text>
+    <text x="66" y="231" fill="#dce7f6" font-size="34" font-weight="400">Software from the foundations up.</text>
+    <text x="66" y="286" fill="#a8bfd9" font-size="19">Languages, runtimes, graphics, operating systems and AI.</text>
+    <rect x="66" y="346" width="190" height="2" fill="url(#accent)" />
+    <text x="66" y="384" fill="#8ca7c7" font-size="14" letter-spacing="2">SPLENTAINC / GITHUB</text>
+  </g>
+  <g fill="url(#panel)" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M1025 228 1190 141 1355 228 1190 315Z" stroke="#385978" />
+    <path d="M1025 186 1190 99 1355 186 1190 273Z" stroke="#4a7a9b" />
+    <path d="M1025 144 1190 57 1355 144 1190 231Z" stroke="url(#accent)" />
+  </g>
+  <g fill="none" stroke="#5eead4" stroke-opacity="0.55" stroke-width="1.5">
+    <path d="M1190 231V356H1320" />
+    <path d="M1025 186V303H1083" stroke="#60a5fa" />
+  </g>
+  <circle cx="1320" cy="356" r="5" fill="#5eead4" />
+  <circle cx="1083" cy="303" r="4" fill="#60a5fa" />
+  <circle cx="1190" cy="144" r="7" fill="#99f6e4" />
+</svg>
